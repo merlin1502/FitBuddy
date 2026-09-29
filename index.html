@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitBuddy - AI Fitness Planner</title>
+</head>
 
+<body>
+
+    <h1>💪 FitBuddy</h1>
+
+    <h2>AI Fitness Plan Generator</h2>
+
+    <p>Create your personalized fitness plan with AI.</p>
+
+    <label>Your Name:</label>
+    <input type="text" id="name" placeholder="Enter your name">
+
+    <br><br>
+
+    <label>Fitness Goal:</label>
+    <select id="goal">
+        <option>Weight Management</option>
+        <option>Build Strength</option>
+        <option>Improve Fitness</option>
+        <option>General Wellness</option>
+    </select>
+
+    <br><br>
+
+    <label>Activity Level:</label>
+    <select id="activity">
+        <option>Beginner</option>
+        <option>Intermediate</option>
+        <option>Advanced</option>
+    </select>
+
+    <br><br>
+
+    <button onclick="generatePlan()">Generate My Plan</button>
+
+    <div id="result"></div>
+
+    <script>
+        function generatePlan() {
+            const name = document.getElementById("name").value;
+            const goal = document.getElementById("goal").value;
+            const activity = document.getElementById("activity").value;
+
+            document.getElementById("result").innerHTML =
+                "<h2>Your FitBuddy Plan</h2>" +
+                "<p>Hello " + name + "!</p>" +
+                "<p>Goal: " + goal + "</p>" +
+                "<p>Level: " + activity + "</p>" +
+                "<p>🏋️ Workout: 30 minutes</p>" +
+                "<p>🚶 Cardio: 20 minutes</p>" +
+                "<p>💧 Stay hydrated and take regular rest.</p>";
+        }
+    </script>
+
+</body>
+</html>
