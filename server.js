@@ -68,6 +68,9 @@ Format the answer with clear headings and bullet points.
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`FitBuddy running at http://localhost:${PORT}`);
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`FitBuddy running on port ${PORT}`);
+});
 });
