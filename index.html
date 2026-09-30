@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>FitBuddy - AI Fitness Planner</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>💪 FitBuddy</h1>
+    <p>AI Fitness Plan Generator</p>
+  </header>
+
+  <main>
+
+    <section class="card">
+
+      <h2>Create Your Fitness Plan</h2>
+
+      <form id="fitnessForm">
+
+        <label>Age</label>
+        <input
+          type="number"
+          id="age"
+          min="13"
+          max="100"
+          required
+        >
+
+        <label>Fitness Goal</label>
+        <select id="goal" required>
+          <option value="">Select a goal</option>
+          <option value="Improve general fitness">
+            Improve general fitness
+          </option>
+          <option value="Build strength">
+            Build strength
+          </option>
+          <option value="Improve flexibility">
+            Improve flexibility
+          </option>
+          <option value="Improve endurance">
+            Improve endurance
+          </option>
+        </select>
+
+        <label>Activity Level</label>
+        <select id="activity" required>
+          <option value="">Select activity level</option>
+          <option value="Beginner">Beginner</option>
+          <option value="Lightly active">Lightly active</option>
+          <option value="Moderately active">
+            Moderately active
+          </option>
+        </select>
+
+        <label>Available Days Per Week</label>
+        <select id="days" required>
+          <option value="">Select days</option>
+          <option value="2 days">2 days</option>
+          <option value="3 days">3 days</option>
+          <option value="4 days">4 days</option>
+          <option value="5 days">5 days</option>
+        </select>
+
+        <label>Workout Preference</label>
+        <select id="preference" required>
+          <option value="">Select preference</option>
+          <option value="Home workout">Home workout</option>
+          <option value="Gym workout">Gym workout</option>
+          <option value="Walking and light exercise">
+            Walking and light exercise
+          </option>
+        </select>
+
+        <button type="submit">
+          Generate My Plan ✨
+        </button>
+
+      </form>
+
+    </section>
+
+    <section class="result-card">
+
+      <h2>Your AI Fitness Plan</h2>
+
+      <div id="loading">
+        Your plan is being generated...
+      </div>
+
+      <div id="result"></div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 FitBuddy | AI Fitness Assistant</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
