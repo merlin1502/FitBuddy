@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FitBuddy - AI Fitness Planner</title>
+</head>
+
+<body>
+  <div id="root">
+    <h1>FitBuddy 💪</h1>
+    <p>AI Fitness Plan Generator</p>
+
+    <input id="name" placeholder="Your Name">
+    <input id="age" type="number" placeholder="Age">
+
+    <select id="goal">
+      <option value="">Select Fitness Goal</option>
+      <option>Weight Loss</option>
+      <option>Muscle Gain</option>
+      <option>General Fitness</option>
+    </select>
+
+    <select id="level">
+      <option value="">Fitness Level</option>
+      <option>Beginner</option>
+      <option>Intermediate</option>
+      <option>Advanced</option>
+    </select>
+
+    <button onclick="generatePlan()">Generate My Plan</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script>
+    function generatePlan() {
+      const name = document.getElementById("name").value;
+      const goal = document.getElementById("goal").value;
+      const level = document.getElementById("level").value;
+
+      document.getElementById("result").innerHTML = `
+        <h2>Hello ${name || "there"}! 👋</h2>
+        <h3>Your Fitness Plan</h3>
+        <p><b>Goal:</b> ${goal}</p>
+        <p><b>Level:</b> ${level}</p>
+        <p>AI-generated workout and nutrition plan will appear here.</p>
+      `;
+    }
+  </script>
+</body>
+</html>
