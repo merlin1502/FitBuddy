@@ -1,0 +1,91 @@
+PHASE 7 – PROJECT DOCUMENTATION
+
+1. Introduction
+
+Project documentation provides complete information about the FitBuddy application, including its purpose, requirements, design, development process, testing, and future improvements.
+
+Proper documentation helps users, team members, teachers, and evaluators understand the project clearly.
+
+2. Project Overview
+
+FitBuddy is a web-based AI fitness plan generator designed to provide personalized workout recommendations.
+
+The application accepts basic fitness preferences from the user and displays a suitable workout recommendation.
+
+3. Technologies Used
+
+The project uses the following technologies:
+
+HTML
+
+HTML is used to create the basic structure and content of the website.
+
+CSS
+
+CSS is used to design the webpage and create a responsive user interface.
+
+JavaScript
+
+JavaScript is used to implement the interactive functionality of the fitness plan generator.
+
+4. Application Workflow
+
+The basic workflow of the application is:
+
+User Opens Application
+        ↓
+Selects Fitness Goal
+        ↓
+Selects Fitness Level
+        ↓
+Selects Workout Days
+        ↓
+Clicks Generate My Plan
+        ↓
+Application Processes Input
+        ↓
+Fitness Recommendation Displayed
+
+5. User Guide
+
+To use FitBuddy, the user should first open the application in a supported web browser.
+
+The user then selects a fitness goal from the available options. Next, the user selects their fitness level and the number of workout days per week.
+
+After selecting the required information, the user clicks the "Generate My Plan" button. The application displays a recommendation based on the selected preferences.
+
+6. Advantages
+
+The main advantages of FitBuddy include:
+
+- Simple interface
+- Easy navigation
+- Personalized recommendations
+- Beginner-friendly design
+- Responsive layout
+- Quick result generation
+- Easy to expand with additional features
+
+7. Limitations
+
+The current version provides basic rule-based recommendations. It does not replace professional medical or fitness advice.
+
+The current version also does not contain user authentication, database storage, advanced AI integration, or detailed progress tracking.
+
+8. Future Enhancements
+
+Future versions can include:
+
+- Real AI integration
+- User accounts
+- Fitness progress tracking
+- Nutrition recommendations
+- Exercise videos
+- Workout reminders
+- Database integration
+- AI chatbot
+- Personalized fitness history
+
+9. Conclusion
+
+FitBuddy demonstrates how a simple web application can provide personalized fitness recommendations. The project provides a foundation that can later be expanded into a more advanced AI-powered fitness assistant.
