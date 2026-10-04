@@ -1,0 +1,35 @@
+PHASE 1 – BRAINSTORMING & IDEATION
+
+1. Project Title
+
+FitBuddy – AI Fitness Plan Generator
+
+FitBuddy is a smart fitness planning web application designed to help users generate personalized workout recommendations based on their fitness goals, fitness level, and preferred workout frequency. The main idea behind the project is to provide users with a simple digital assistant that can guide them in planning their fitness activities.
+
+2. Problem Identification
+
+Many people are interested in maintaining a healthy and active lifestyle, but they may not know how to create a suitable workout routine. Beginners may become confused about which exercises they should perform, how frequently they should exercise, and which exercises are appropriate for their fitness goals.
+
+FitBuddy aims to address this problem by providing a simple platform where users can enter their basic fitness preferences and receive suitable workout recommendations.
+
+3. Brainstorming
+
+During the brainstorming process, different ideas related to health and fitness applications were discussed. The team considered features such as workout recommendations, fitness goal selection, exercise suggestions, nutrition guidance, progress tracking, reminders, and AI-based assistance.
+
+After evaluating the different ideas, the team selected the AI Fitness Plan Generator because it provides a practical solution and can be developed as a user-friendly web application.
+
+4. Target Users
+
+The main target users of FitBuddy are beginners, students, working people, and anyone who wants simple fitness recommendations. The application is designed to keep the interface easy to understand so that users with limited technical knowledge can use it comfortably.
+
+5. Main Objectives
+
+The main objectives are to create a simple fitness planning application, provide personalized workout recommendations, help users select suitable exercises according to their goals, and demonstrate how modern web technologies can be used to solve a real-world problem.
+
+6. Future Scope
+
+In the future, the application can be expanded with real AI integration, user accounts, progress tracking, nutrition recommendations, exercise videos, reminders, database connectivity, and an AI fitness chatbot.
+
+7. Expected Outcome
+
+The expected outcome is a responsive and user-friendly web application that accepts fitness-related preferences from users and displays a suitable workout recommendation.
