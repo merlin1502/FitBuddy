@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitBuddy - AI Fitness Plan Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">FitBuddy</div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#plans">Plans</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>AI Fitness Plan Generator</h1>
+
+                <p>
+                    Create a personalized fitness and workout plan
+                    based on your goals, experience and preferences.
+                </p>
+
+                <button onclick="generatePlan()">
+                    Generate My Plan
+                </button>
+            </div>
+        </section>
+
+        <section id="features" class="section">
+            <h2>Why Choose FitBuddy?</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>🤖 AI Powered</h3>
+                    <p>
+                        Generate personalized fitness recommendations
+                        using AI-based suggestions.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>🏋️ Workout Plans</h3>
+                    <p>
+                        Get workout ideas designed according to
+                        your fitness goals.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>🥗 Smart Recommendations</h3>
+                    <p>
+                        Receive simple health and fitness recommendations
+                        to support your daily routine.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="plans" class="section generator">
+
+            <h2>Create Your Fitness Plan</h2>
+
+            <div class="form-box">
+
+                <label for="goal">Your Goal</label>
+
+                <select id="goal">
+                    <option value="weight-loss">Weight Loss</option>
+                    <option value="muscle-gain">Muscle Gain</option>
+                    <option value="fitness">General Fitness</option>
+                    <option value="strength">Strength</option>
+                </select>
+
+                <label for="level">Fitness Level</label>
+
+                <select id="level">
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                </select>
+
+                <label for="days">Workout Days Per Week</label>
+
+                <select id="days">
+                    <option value="2">2 Days</option>
+                    <option value="3">3 Days</option>
+                    <option value="4">4 Days</option>
+                    <option value="5">5 Days</option>
+                </select>
+
+                <button onclick="generatePlan()">
+                    Generate Plan
+                </button>
+
+            </div>
+
+            <div id="result" class="result-box">
+                <h3>Your AI Fitness Plan</h3>
+                <p>
+                    Fill in your details and click
+                    "Generate Plan" to get your recommendation.
+                </p>
+            </div>
+
+        </section>
+
+        <section id="about" class="section about">
+            <h2>About FitBuddy</h2>
+
+            <p>
+                FitBuddy is an AI-powered fitness assistant designed
+                to help users create simple and personalized workout
+                plans according to their individual goals.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 FitBuddy - AI Fitness Plan Generator</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
