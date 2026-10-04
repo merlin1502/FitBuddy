@@ -1,0 +1,39 @@
+PHASE 2 – REQUIREMENT ANALYSIS
+
+1. Introduction
+
+Requirement analysis is the process of identifying what the FitBuddy application should do and what resources are required to develop it. The requirements are divided into functional and non-functional requirements.
+
+2. Functional Requirements
+
+The application should allow users to select their fitness goal, fitness level, and preferred number of workout days. After receiving these inputs, the system should process the information and display a suitable workout recommendation.
+
+The application should provide different recommendations for goals such as weight loss, muscle gain, general fitness, and strength. It should also provide recommendations suitable for different fitness levels.
+
+3. User Requirements
+
+Users should be able to access the application easily through a web browser. The interface should provide clear options and buttons. Users should not require advanced technical knowledge to use the application.
+
+4. Software Requirements
+
+The project can be developed using HTML, CSS, and JavaScript. A modern web browser such as Microsoft Edge, Google Chrome, or another compatible browser can be used to run the application.
+
+5. Hardware Requirements
+
+A computer, laptop, tablet, or smartphone with a web browser can be used to access the application. An internet connection may be required depending on the deployment method and future AI services.
+
+6. Non-Functional Requirements
+
+The application should be easy to use, responsive, reliable, and visually understandable. It should work properly on different screen sizes including mobile phones, tablets, and computers.
+
+7. Security Requirements
+
+If future versions include user accounts or personal information, suitable authentication and data protection mechanisms should be implemented. The application should avoid collecting unnecessary personal information.
+
+8. Performance Requirements
+
+The application should respond quickly when users select their preferences and generate a workout recommendation. The interface should remain smooth and usable on commonly available devices.
+
+9. Requirement Summary
+
+The requirement analysis provides a clear understanding of the features, resources, users, and technical requirements needed to develop the FitBuddy application.
