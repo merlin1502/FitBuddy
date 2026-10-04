@@ -1,0 +1,45 @@
+PHASE 3 – PROJECT DESIGN
+
+1. System Design
+
+FitBuddy follows a simple user-input and recommendation-based design. The user first opens the application and selects their fitness preferences. These inputs are then processed by the application logic, and an appropriate workout recommendation is displayed.
+
+2. User Interface Design
+
+The user interface is designed to be simple, clean, and easy to understand. The home page introduces the FitBuddy application and provides access to the fitness plan generator.
+
+The generator section contains selection fields for fitness goal, fitness level, and workout frequency. A button is provided to generate the fitness plan.
+
+3. Input Design
+
+The application collects three main inputs:
+
+- Fitness Goal
+- Fitness Level
+- Workout Days Per Week
+
+These inputs help the application determine an appropriate recommendation.
+
+4. Processing Design
+
+JavaScript is used to process the information selected by the user. Based on the selected fitness goal, the system selects appropriate exercise recommendations and displays them in the result section.
+
+5. Output Design
+
+The output contains the selected goal, fitness level, workout frequency, and recommended exercises. The result is displayed clearly so that users can understand their generated plan.
+
+6. Navigation Design
+
+The website contains navigation sections such as Home, Features, Plans, and About. Users can move between different sections using the navigation menu.
+
+7. Responsive Design
+
+The website is designed to work on different screen sizes. CSS media queries are used to adjust the layout for mobile phones, tablets, and desktop computers.
+
+8. Technology Design
+
+HTML is used to create the structure of the website, CSS is used for styling and responsive design, and JavaScript is used for interaction and workout plan generation.
+
+9. Design Objective
+
+The main design objective is to create an application that is simple, attractive, responsive, and easy for users to understand.
