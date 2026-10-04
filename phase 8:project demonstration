@@ -1,0 +1,101 @@
+PHASE 8 – PROJECT DEMONSTRATION
+
+1. Introduction
+
+The project demonstration is the final stage of the FitBuddy project. In this stage, the completed application is presented to the evaluator or audience to explain its purpose, features, working process, and results.
+
+2. Demonstration Objective
+
+The main objective of the demonstration is to show that the FitBuddy application works according to the project requirements.
+
+The demonstration should explain the problem, proposed solution, application features, technologies used, and working process.
+
+3. Project Introduction
+
+During the demonstration, the team can introduce FitBuddy as a web-based AI fitness plan generator designed to provide simple personalized workout recommendations.
+
+The team can explain that users can select their fitness goal, fitness level, and preferred workout frequency.
+
+4. Application Demonstration
+
+The demonstration can start from the FitBuddy home page.
+
+The following steps can be shown:
+
+Step 1 – Open the Application
+
+Open the FitBuddy application in a web browser.
+
+Step 2 – Show the Home Page
+
+Explain the purpose of the application and introduce the main features.
+
+Step 3 – Open the Fitness Plan Generator
+
+Navigate to the fitness plan generator section.
+
+Step 4 – Select Fitness Goal
+
+Choose one of the available goals such as Weight Loss, Muscle Gain, General Fitness, or Strength.
+
+Step 5 – Select Fitness Level
+
+Select Beginner, Intermediate, or Advanced according to the demonstration scenario.
+
+Step 6 – Select Workout Days
+
+Select the preferred number of workout days per week.
+
+Step 7 – Generate the Plan
+
+Click the "Generate My Plan" button.
+
+Step 8 – Show the Result
+
+The application displays the selected fitness information and recommended exercises.
+
+5. Technologies Demonstration
+
+During the presentation, the team can explain that HTML was used for the structure, CSS was used for styling and responsive design, and JavaScript was used for interactive functionality.
+
+6. Expected Demonstration Result
+
+The expected result is that the application successfully accepts the user's selections and displays a suitable fitness recommendation.
+
+7. Demo Video
+
+A demonstration video can be recorded by showing the complete workflow of the application.
+
+The video can include:
+
+- Project introduction
+- Home page
+- Features
+- Fitness plan generator
+- User input
+- Generated recommendation
+- Final result
+
+The demo video can be uploaded to Google Drive or another approved platform, with the required sharing permission enabled.
+
+8. Presentation
+
+The team can prepare a presentation containing:
+
+- Project Title
+- Problem Statement
+- Proposed Solution
+- Objectives
+- Requirements
+- System Design
+- Development
+- Testing
+- Results
+- Future Scope
+- Conclusion
+
+9. Conclusion
+
+The demonstration stage provides an opportunity to show the completed FitBuddy application and explain how the project solves the identified problem.
+
+The final demonstration should be clear, organized, and focused on the main features and working process of the application.
