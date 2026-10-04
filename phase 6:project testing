@@ -1,0 +1,65 @@
+PHASE 6 – PROJECT TESTING
+
+1. Introduction
+
+Testing is performed to verify that the FitBuddy application works correctly according to the requirements. The main purpose of testing is to identify errors and ensure that the application provides the expected results.
+
+2. Functional Testing
+
+Functional testing checks whether the main features of the application work correctly.
+
+The following functions are tested:
+
+- Navigation links
+- Fitness goal selection
+- Fitness level selection
+- Workout day selection
+- Generate My Plan button
+- Fitness recommendation display
+
+3. Input Testing
+
+Different combinations of user inputs are tested to verify that the application responds correctly.
+
+For example, the user can select Weight Loss with Beginner level and three workout days. The system should generate an appropriate recommendation.
+
+4. Button Testing
+
+The "Generate My Plan" button is tested to ensure that clicking the button processes the selected information and displays the result.
+
+The result should appear without requiring the user to refresh the page.
+
+5. Responsive Testing
+
+The website is tested on different screen sizes including:
+
+- Mobile phone
+- Tablet
+- Laptop
+- Desktop
+
+The purpose is to ensure that the website layout remains readable and usable.
+
+6. Browser Testing
+
+The application can be tested using different modern browsers such as Chrome, Microsoft Edge, Firefox, and other compatible browsers.
+
+7. Error Identification
+
+During testing, possible problems such as incorrect output, broken links, layout issues, missing files, or JavaScript errors are identified and corrected.
+
+8. Test Case Example
+
+Test Case| Input| Expected Result
+TC01| Weight Loss| Weight-loss exercises displayed
+TC02| Muscle Gain| Muscle-gain exercises displayed
+TC03| General Fitness| General fitness exercises displayed
+TC04| Strength| Strength exercises displayed
+TC05| Different fitness level| Selected level displayed
+TC06| Different workout days| Selected days displayed
+
+9. Testing Result
+
+After testing the main functionality, the application should successfully accept user inputs and generate the corresponding fitness recommendations.
+
+Testing helps improve the reliability and usability of the FitBuddy application.
